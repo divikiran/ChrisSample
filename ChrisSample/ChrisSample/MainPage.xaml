@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ChrisSample.MainPage">
+    <StackLayout Margin="30">
+    <Grid>
+        <Label Grid.Row="0" Grid.ColumnSpan="2" TextColor="Black" Text="Projects &#10;Form Text" FontSize="30" FontAttributes="Bold" HorizontalTextAlignment="Start"/>
+        <StackLayout Grid.Row="1" Grid.ColumnSpan="2" Orientation="Horizontal">
+            <CheckBox />
+            <Label Text="Checkbox" VerticalTextAlignment="Center"/>
+        </StackLayout>
+       <Entry Grid.Row="2" Grid.ColumnSpan="2" Text="123" Keyboard="Numeric" />
+        <Entry Grid.Row="3" Grid.ColumnSpan="2" Text="123" />
+        <Entry Grid.Row="4" Grid.ColumnSpan="2"/>
+
+        <Button Grid.Row="5" Grid.Column="0" Text="Submit (Model)"></Button>
+        <Button Grid.Row="5" Grid.Column="1" Text="Submit (Method)"></Button>
+        <Button Grid.Row="6"  Grid.ColumnSpan="2" Text="Submit (Model delegate)"></Button>
+    </Grid>
+</StackLayout>
+</ContentPage>

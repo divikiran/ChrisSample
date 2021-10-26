@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{8423F7C4-01C7-42CB-AADD-38C94C166768}|Default">
+  <MonoDevelop.Ide.ItemProperties.ChrisSample.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ChrisSample/MainPage.xaml">
+    <Files>
+      <File FileName="ChrisSample/MainPage.xaml" Line="22" Column="1" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ChrisSample" expanded="True">
+            <Node name="ChrisSample" expanded="True" />
+            <Node name="ChrisSample.Android" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ChrisSample.Android PreferredExecutionTarget="Android.pixel_3_xl_r_11_0_-_api_30" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
