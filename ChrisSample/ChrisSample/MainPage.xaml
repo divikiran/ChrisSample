@@ -4,18 +4,21 @@
              x:Class="ChrisSample.MainPage">
     <StackLayout Margin="30">
     <Grid>
-        <Label Grid.Row="0" Grid.ColumnSpan="2" TextColor="Black" Text="Projects &#10;Form Text" FontSize="30" FontAttributes="Bold" HorizontalTextAlignment="Start"/>
+        <Label Grid.Row="0" Grid.ColumnSpan="2" TextColor="Black" Text="{Binding Name}" FontSize="30" FontAttributes="Bold" HorizontalTextAlignment="Start"/>
         <StackLayout Grid.Row="1" Grid.ColumnSpan="2" Orientation="Horizontal">
-            <CheckBox />
+            <CheckBox  IsChecked="{Binding IsCheckboxChecked}"/>
             <Label Text="Checkbox" VerticalTextAlignment="Center"/>
+            <Label Text="{Binding CheckBoxValue}" VerticalTextAlignment="Center"/>
         </StackLayout>
        <Entry Grid.Row="2" Grid.ColumnSpan="2" Text="123" Keyboard="Numeric" />
-        <Entry Grid.Row="3" Grid.ColumnSpan="2" Text="123" />
-        <Entry Grid.Row="4" Grid.ColumnSpan="2"/>
 
-        <Button Grid.Row="5" Grid.Column="0" Text="Submit (Model)"></Button>
-        <Button Grid.Row="5" Grid.Column="1" Text="Submit (Method)"></Button>
-        <Button Grid.Row="6"  Grid.ColumnSpan="2" Text="Submit (Model delegate)"></Button>
+        <Entry Grid.Row="3" Grid.ColumnSpan="2" Text="{Binding Name}"/>
+
+        <Entry Grid.Row="4" Grid.ColumnSpan="2"  Text="{Binding DateTimeString}"/>
+
+        <Button x:Name="buttonName" Grid.Row="5" Grid.Column="0" Text="Submit (Model)" Command="{Binding ButtonClickCommand}" IsEnabled="{Binding }"></Button>
+        <Button Grid.Row="5" Grid.Column="1" Text="{Binding DateTimeString}" IsEnabled="{Binding ButtonTwoIsEnabled}"></Button>
+        <Button Grid.Row="6"  Grid.ColumnSpan="2" Text="Submit (Model delegate)" Command="{Binding ButtonThreeClickCommand}"></Button>
     </Grid>
 </StackLayout>
 </ContentPage>
