@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/divikiranravela/Projects/ChrisSample/ChrisSample/ChrisSample.csproj": {}
+    "/Users/divikiranravela/Documents/Github/ChrisSample/ChrisSample/ChrisSample/ChrisSample.csproj": {}
   },
   "projects": {
-    "/Users/divikiranravela/Projects/ChrisSample/ChrisSample/ChrisSample.csproj": {
+    "/Users/divikiranravela/Documents/Github/ChrisSample/ChrisSample/ChrisSample/ChrisSample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/divikiranravela/Projects/ChrisSample/ChrisSample/ChrisSample.csproj",
+        "projectUniqueName": "/Users/divikiranravela/Documents/Github/ChrisSample/ChrisSample/ChrisSample/ChrisSample.csproj",
         "projectName": "ChrisSample",
-        "projectPath": "/Users/divikiranravela/Projects/ChrisSample/ChrisSample/ChrisSample.csproj",
+        "projectPath": "/Users/divikiranravela/Documents/Github/ChrisSample/ChrisSample/ChrisSample/ChrisSample.csproj",
         "packagesPath": "/Users/divikiranravela/.nuget/packages/",
-        "outputPath": "/Users/divikiranravela/Projects/ChrisSample/ChrisSample/obj/",
+        "outputPath": "/Users/divikiranravela/Documents/Github/ChrisSample/ChrisSample/ChrisSample/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/divikiranravela/.config/NuGet/NuGet.Config"
@@ -42,6 +42,10 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.5.3, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

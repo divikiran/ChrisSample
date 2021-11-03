@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "FluentValidation/9.5.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -155,6 +164,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "FluentValidation": "9.5.3",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012"
         },
@@ -167,6 +177,15 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "FluentValidation/9.5.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -320,6 +339,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "FluentValidation": "9.5.3",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012"
         },
@@ -332,6 +352,15 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "FluentValidation/9.5.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -485,6 +514,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "FluentValidation": "9.5.3",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012"
         },
@@ -497,6 +527,15 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "FluentValidation/9.5.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -650,6 +689,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "FluentValidation": "9.5.3",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012"
         },
@@ -663,6 +703,24 @@
     }
   },
   "libraries": {
+    "FluentValidation/9.5.3": {
+      "sha512": "BataCga/cwQUeo9yy8dzDnihx3N5l1+wj6kEQOkdQ5FIsSFcWD/UjdPJ2jNKODSPAtYuDH5KLM5IBrr1UCNf/A==",
+      "type": "package",
+      "path": "fluentvalidation/9.5.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluent-validation-icon.png",
+        "fluentvalidation.9.5.3.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net461/FluentValidation.dll",
+        "lib/net461/FluentValidation.xml",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml"
+      ]
+    },
     "System.Numerics.Vectors/4.5.0": {
       "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "type": "package",
@@ -986,6 +1044,7 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "ChrisSample >= 1.0.0",
+      "FluentValidation >= 9.5.3",
       "Xamarin.Essentials >= 1.6.1",
       "Xamarin.Forms >= 5.0.0.2012"
     ]
@@ -996,11 +1055,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/divikiranravela/Projects/ChrisSample/ChrisSample.iOS/ChrisSample.iOS.csproj",
+      "projectUniqueName": "/Users/divikiranravela/Documents/Github/ChrisSample/ChrisSample/ChrisSample.iOS/ChrisSample.iOS.csproj",
       "projectName": "ChrisSample.iOS",
-      "projectPath": "/Users/divikiranravela/Projects/ChrisSample/ChrisSample.iOS/ChrisSample.iOS.csproj",
+      "projectPath": "/Users/divikiranravela/Documents/Github/ChrisSample/ChrisSample/ChrisSample.iOS/ChrisSample.iOS.csproj",
       "packagesPath": "/Users/divikiranravela/.nuget/packages/",
-      "outputPath": "/Users/divikiranravela/Projects/ChrisSample/ChrisSample.iOS/obj/",
+      "outputPath": "/Users/divikiranravela/Documents/Github/ChrisSample/ChrisSample/ChrisSample.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1018,8 +1077,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/divikiranravela/Projects/ChrisSample/ChrisSample/ChrisSample.csproj": {
-              "projectPath": "/Users/divikiranravela/Projects/ChrisSample/ChrisSample/ChrisSample.csproj"
+            "/Users/divikiranravela/Documents/Github/ChrisSample/ChrisSample/ChrisSample/ChrisSample.csproj": {
+              "projectPath": "/Users/divikiranravela/Documents/Github/ChrisSample/ChrisSample/ChrisSample/ChrisSample.csproj"
             }
           }
         }
@@ -1028,6 +1087,10 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[9.5.3, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.6.1, )"

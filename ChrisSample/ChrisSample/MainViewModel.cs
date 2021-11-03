@@ -12,9 +12,11 @@ namespace ChrisSample
 
         public string Name
         {
-            get => name; set
+            get => name;
+            set
             {
                 name = value;
+                //var p = PageValidation.Validate(this);
                 NotifyPropertyChanged(nameof(Name));
             }
         }
@@ -23,6 +25,7 @@ namespace ChrisSample
         private bool isCheckboxChecked;
         private string checkBoxValue;
         private bool buttonTwoIsEnabled;
+        private string nameError;
 
         public string DateTimeString
         {
@@ -63,15 +66,28 @@ namespace ChrisSample
             }
         }
 
+        public string NameError
+        {
+            get => nameError; internal set
+            {
+                nameError = value;
+                NotifyPropertyChanged(nameof(NameError));
+            }
+        }
+
+        public PageValidation PageValidation { get; set; }
+
 
         public ICommand ButtonClickCommand { get; set; }
         public ICommand ButtonThreeClickCommand { get; set; }
 
+
         public MainViewModel()
         {
-            Name = "Test project";
+            //Name = "Test project";
             ButtonClickCommand = new Command(ButtonClickAction);
             ButtonThreeClickCommand = new Command(ButtonThreeClickAction);
+            PageValidation = new PageValidation();
         }
 
         private void ButtonThreeClickAction(object obj)
@@ -81,10 +97,19 @@ namespace ChrisSample
 
         private void ButtonClickAction(object obj)
         {
+            var result = PageValidation.Validate(this);
+            if (result.IsValid))
+                NameError = string.Empty;
+
             DateTimeString = DateTime.Now.ToString("ffff");
 
 
 
+        }
+
+        private bool Validate()
+        {
+            throw new NotImplementedException();
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

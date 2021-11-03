@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "A/LnEC0Uece3p7Thpbn1VZPG9WKLdQUOWXG3otZaBVIClikFOv1/r8v5X2WLvw3WmsNrP6ljeCE3yaMkKHFRrw==",
+  "dgSpecHash": "O88uWjIsMgQIeZ+45IGpSGUTzsRYihWjaru4wddCrJkY3YVeUNeaKlBlpYmbCC34lcIoDfP1TgAMxAnbb37QTw==",
   "success": true,
-  "projectFilePath": "/Users/divikiranravela/Projects/ChrisSample/ChrisSample.Android/ChrisSample.Android.csproj",
+  "projectFilePath": "/Users/divikiranravela/Documents/Github/ChrisSample/ChrisSample/ChrisSample.Android/ChrisSample.Android.csproj",
   "expectedPackageFiles": [
+    "/Users/divikiranravela/.nuget/packages/fluentvalidation/9.5.3/fluentvalidation.9.5.3.nupkg.sha512",
     "/Users/divikiranravela/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/divikiranravela/.nuget/packages/xamarin.androidx.activity/1.1.0.5/xamarin.androidx.activity.1.1.0.5.nupkg.sha512",
     "/Users/divikiranravela/.nuget/packages/xamarin.androidx.annotation/1.1.0.8/xamarin.androidx.annotation.1.1.0.8.nupkg.sha512",

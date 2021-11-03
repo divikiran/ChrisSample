@@ -1,21 +1,23 @@
 ﻿<Properties StartupConfiguration="{8423F7C4-01C7-42CB-AADD-38C94C166768}|Default">
-  <MonoDevelop.Ide.ItemProperties.ChrisSample.iOS FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ChrisSample/MainPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ChrisSample/MainViewModel.cs">
     <Files>
-      <File FileName="ChrisSample/MainPage.xaml" Line="22" Column="1" NotebookId="1" />
+      <File FileName="ChrisSample/MainPage.xaml" Line="21" Column="51" />
+      <File FileName="ChrisSample/MainViewModel.cs" Line="51" Column="14" />
+      <File FileName="ChrisSample/PageValidation.cs" Line="2" Column="23" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ChrisSample" expanded="True">
-            <Node name="ChrisSample" expanded="True" />
-            <Node name="ChrisSample.Android" selected="True" />
+            <Node name="ChrisSample" expanded="True">
+              <Node name="MainViewModel.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.ChrisSample.Android PreferredExecutionTarget="Android.pixel_3_xl_r_11_0_-_api_30" />
+  <MonoDevelop.Ide.ItemProperties.ChrisSample.Android PreferredExecutionTarget="Android.pixel_3a_xl_r_11_0_-_api_30" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
