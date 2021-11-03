@@ -98,7 +98,7 @@ namespace ChrisSample
         private void ButtonClickAction(object obj)
         {
             var result = PageValidation.Validate(this);
-            if (result.IsValid))
+            if (result.IsValid)
                 NameError = string.Empty;
 
             DateTimeString = DateTime.Now.ToString("ffff");

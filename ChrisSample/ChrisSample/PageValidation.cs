@@ -7,8 +7,10 @@ namespace ChrisSample
     {
         public PageValidation()
         {
-            RuleFor(x => x.Name).NotEmpty().NotNull().OnFailure(x => x.NameError = "Name is Missing");
+            RuleFor(x => x.Name).NotEmpty().OnFailure(x => x.NameError = "Name is Empty");
+            RuleFor(x => x.Name).NotNull().OnFailure(x => x.NameError = "Name is Null");
             
+
 
         }
     }
